@@ -4,7 +4,7 @@ This is to make it easier to build, deploy, and run docker based Senzing on your
 
 # DISCLAIMER
 
-I am affiliated to neither Senzing nor Docker or any involved components.
+I am affiliated to neither Senzing nor Docker nor any involved components.
 I will not provide any support to Senzing products and this script is given in a "as-is".
 
 If you are not sure about this, please do not use it.
