@@ -15,7 +15,7 @@ If you are not sure about this, please do not use it.
 * Linux based.
 
 I'm aware that some people are able to run `amd64` images on macOS docker through rosetta.
-This, however is not yet (as for 2021-07-19) a stable release for docker.
+This, however, is not yet (as for 2021-07-19) a stable release for docker.
 
 Source: https://docs.docker.com/docker-for-mac/apple-silicon/
 
