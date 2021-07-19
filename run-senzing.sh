@@ -120,9 +120,8 @@ function help()
     echo "  --I-accept-senzing-eula"
     echo
     echo "${0} \\"
-    echo "  --force \\"
-    echo "  --stop-all \\"
     echo "  --run \\"
+    echo "  --stop-all \\"
     echo "  --I-accept-senzing-eula"
     echo
     echo "${0} \\"
