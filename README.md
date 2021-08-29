@@ -46,6 +46,22 @@ brew install docker git lsof yq
 Note: you have to go to [Docker](https://www.docker.com/) and install 
 Docker desktop.
 
+### Docker Desktop Settings
+
+Once you installed [Docker desktop](https://www.docker.com/) and have it running for the first time you need to change some settings in order to run Senzing properly.
+Go to docker `Preferences` and select `Resources` on the left pane:
+
+1. CPUs: 4 or more
+2. Memory: 10GB or more;
+3. Swap: 2GB or more;
+4. Disk image size: 100GB or more.
+
+Note: The screenshots were made with Docker Desktop 3.6.0 (67351)
+
+#### Memory requirements
+
+You need at least 
+
 ## Linux:
 
 * [Docker](https://www.docker.com/);
