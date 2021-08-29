@@ -58,9 +58,11 @@ Go to docker `Preferences` and select `Resources` on the left pane:
 
 Note: The screenshots were made with Docker Desktop 3.6.0 (67351)
 
-#### Memory requirements
+![title bar](title_bar.png)
 
-You need at least 
+![docker menu](docker_menu.png)
+
+![docker resources](docker_resources.png)
 
 ## Linux:
 
