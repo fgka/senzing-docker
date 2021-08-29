@@ -31,6 +31,7 @@ This has been successfully tested on (stand of 2021-07-14):
 
 ## macOS:
 
+* [Homebrew](https://brew.sh/);
 * [Docker desktop](https://www.docker.com/);
 * [git](https://git-scm.com/);
 * [lsof](https://en.wikipedia.org/wiki/Lsof);
