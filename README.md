@@ -220,3 +220,36 @@ You must have write permissions to the target directory.
   --I-accept-senzing-eula
 ```
 
+## License
+
+The [offical documentation](https://senzing.zendesk.com/hc/en-us/articles/115002354193-I-ve-Received-My-License-File-Now-What-)
+
+Let us assume you have the file in your `Download` dir.
+
+```bash
+ls -l ${HOME}/Downloads/g2.lic
+``` 
+
+Copy it over:
+
+```bash
+cp ${HOME}/Downloads/g2.lic ${HOME}/senzing-volume/etc
+```
+
+```bash
+pushd ${HOME}/senzing-volume/etc
+cp G2Module.ini G2Module.ini.orig
+cat > G2Module.ini << __END__
+[PIPELINE]
+SUPPORTPATH = /opt/senzing/data
+CONFIGPATH = /etc/opt/senzing
+RESOURCEPATH = /opt/senzing/g2/resources
+LICENSEFILE = ${HOME}/senzing-volume/etc/g2.lic
+
+[SQL]
+CONNECTION = postgresql://postgres:postgres@senzing-postgres:5432:G2/
+__END__
+cat G2Module.ini
+popd
+```
+
